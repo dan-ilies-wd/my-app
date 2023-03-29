@@ -12,8 +12,9 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.yellow)
+                .foregroundColor(.red)
             Text("Hello, Spring!")
+            Text("How are you today?") 
         }
         .padding()
     }
